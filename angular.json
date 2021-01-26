@@ -31,9 +31,13 @@
               "src/assets"
             ],
             "styles": [
-              "src/styles.scss"
+              "src/styles.scss",
+              "../node_modules/bulma/css/bulma.css",
+            "../node_modules/ng2-toastr/bundles/ng2-toastr.min.css"
             ],
-            "scripts": []
+            "scripts": [
+              "../node_modules/pusher-js/dist/web/pusher.min.js"
+            ]
           },
           "configurations": {
             "production": {
